@@ -10,6 +10,7 @@ public class ProductView {
     public void viewProduct(Product product){
         System.out.println("Id: " + product.getId());
         System.out.println("Nombre: " + product.getNombre());
+        System.out.println("Categoria: " + product.getCategory().getNombre());
     }
 
     public Product createProduct(){

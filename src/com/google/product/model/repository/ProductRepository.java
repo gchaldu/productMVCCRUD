@@ -25,7 +25,8 @@ public class ProductRepository {
             }
         }
         return null;
-    }public Integer getProductPos(Integer id) {
+    }
+    public Integer getProductPos(Integer id) {
         for (int i=0; i<this.listaProducts.size(); i++) {
             if (this.listaProducts.get(i).getId().equals(id)) {
                 return i;
